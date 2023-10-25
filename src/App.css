@@ -1,0 +1,153 @@
+#signin{
+  background-color:black;
+  padding: 3px;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.navbar{
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor:"pointer"
+}
+
+#signup{
+  background-color:black;
+  padding: 3px;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.subproduct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  margin: 1%;
+  width:20%;
+  height: 10%;
+  box-shadow: 0 0 4px grey;
+  
+  border-radius: 8px;
+
+}
+
+.signin{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width:40vw;
+  height: 50vh;
+  box-shadow: 0 0 4px grey;
+  margin-top: 40px;
+  margin-left: 30%;
+  border-radius: 8px;
+}
+
+.signuppage{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width:40vw;
+  height: 50vh;
+  box-shadow: 0 0 4px grey;
+  margin-top: 40px;
+  margin-left: 30%;
+  border-radius: 8px;
+
+}
+
+.signin .inputForm{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.signuppage .inputForm{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.signin .inputForm2{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.signuppage .inputForm2{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#signinLabel1{
+  margin: 15px;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+#signinLabel2{
+  margin: 50px;
+  font-size: medium;
+  font-weight: bolder;
+}
+#signinInput1{
+width: 250px;
+}
+
+#signinInput2{
+  width: 250px; 
+  margin-left: -12px;
+}
+
+.signin .signinButtons{
+  display:flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  align-items: center;
+   margin-left: 35%;
+  margin-top:10% 
+
+}
+
+.siguppage .signinButtons{
+  display:flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  align-items: center;
+   margin-left: 35%;
+  margin-top:10% 
+
+}
+
+.signin button{
+  width: fit-content;
+  margin:5px
+}
+
+.signuppage button{
+  width: fit-content;
+  margin:35px
+}
+
+#signinuser{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
